@@ -1,0 +1,76 @@
+.nav-input{
+    background-color: transparent;
+}
+
+
+.btn{
+    border-radius: 0.75rem;
+}
+
+.hov:hover{
+    border: 3px dashed grey;
+    padding: 2px;
+    transition: 0.2s;
+}
+
+.my-crd{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-dec{
+    list-style: none;
+}
+
+.my-badge{
+    width: 70px;
+    border-radius: 30px;
+    position: absolute;
+    top:8px;
+    left: 10px;
+}
+
+.my-search{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.card-eff:hover{
+    box-shadow: 0 0 40px rgba(50,33,33,.5); 
+}
+
+.myinput{
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-right: none;
+}
+
+.fa-arrow-right{
+    position: absolute;
+    border: 1px solid white;
+    padding: 4.3px;
+    padding-top: 5.2px;
+    padding-bottom: 5px;
+    border-left: transparent;
+}
+
+.herosec2{
+    gap: 5px; 
+    position: relative; 
+    top: 5px; 
+    bottom: 5px;
+}
+
+.image-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh; 
+  }
+  
+  .image-container img {
+    flex: 1; 
+    object-fit: cover; 
+  }
+
+ 
